@@ -1,0 +1,12 @@
+Até o momento 25/05 foram criadas todas as classes e interfaces que foram solicitadas, porém o case 2 não está funcionando corretamente, por algum motivo ele está lendo a lista de uma forma estranha.
+
+Ex: O case 2 deveria verificar o indice fornecido e verificar se existe um veiculo naquela posição da lista e caso exista deve remove-lo da lista de disponiveis, adiciona-lo a lista dos alugados e informar no console que o veiculo foi alugado com sucesso.
+
+Porém ao apertar para exibir a lista de veiculos é exibido numa ordem que dá a entender que:
+
+Posição: 0 , Veiculo: SEDAN
+Posição: 1, Veiculo: SUV
+Posição:2, Veiculo: CaminhaoGrande
+Posição:3, Veiculo: CaminhãoPequeno.
+
+e se voce selecionar por exemplo a posição 2 que da a entender que é o CaminhaoGrande não funciona, pois o CaminhãoGrande no sistema é a posição 1 
